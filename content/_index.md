@@ -48,8 +48,24 @@ sections:
           date_start: '2018-04-01'
           date_end: '2023-03-30'
           description: First Level IT Support
+        - title:  Web development
+          company: ITF Juniors Tournament Bruchköbel
+          company_url: ''
+          company_logo: org-x
+          location: Bruchköbel
+          date_start: '2020-08-01'
+          date_end: '2021-08-01'
+          description: First Level IT Support
+        - title: IT Support
+          company: AWO Bundesverband e.V.
+          company_url: ''
+          company_logo: org-x
+          location: Bruchköbel
+          date_start: '2017-01-01'
+          date_end: '2018-05-01'
+          description: First Level IT Support
     design:
-      columns: '1'
+      columns: '3'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -148,7 +164,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      email: nils.dambowy@googlemail.com
+      # email: nils.dambowy@googlemail.com
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
