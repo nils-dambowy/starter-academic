@@ -1,9 +1,8 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
-
+title: The Celestial Sphere
+subtitle: From Greek tradition to physics and astronomy
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: The celestial sphere was a term used to explain movement of the stars during ancient greece. It consists out of an outward layer which completly encloses the earth, as seen on the figure on the left side. On this sphere all the observable stars were located and it was believed that the rotation of that sphere around an axis from e.g. north to south pole was the cause of movement
 
 # Link this post with a project
 projects: []
@@ -45,66 +44,13 @@ categories:
 import libr
 print('hello')
 ```
+## The Greek tradition
+Our story starts in ancient Greece where the roots of our modern scientific view lay. Modern astronomy relies on the mathematic formulation of physical theories, which made it start during these times. It was Pythagoras who first demonstrated a relationship between numbers and nature. During the following hundreds of years greek scientists would build on the discoveries made by Pythargoras and they would formulate the first theories to explain the moving night sky. They noticed that the stars were constantly moving from east to west during the course of a night and that the star constellation would vary by season. This made the assumption propable that our night sky revolved around a fixed earth, so that the circular movement is created by the stars - a geocentric universe. However this model was flawed since it did not take into account the concept of 'wandering stars', such as mars. Which were objects in the sky that did not conform to the movement of the sphere. Further explanation was necessary.The task to explain that retrograde(backwards) movement would keep the science world busy for almost 2000 years. One of the people who tried to explain the night sky was Hipparchus, a greek astronomer. His idea was to place mars on a smaller rotating cycle, called epicycle. Through the rotation of that epicycle he was able to reproduce the movement of mars and explain the change of brightness, which was the result of the planet being closer to earth. For the next years this model of planetary motion produced unsatisfactory results which led the scientists to rethink the model. It was Claudis Ptolemy who introduced refinements to the model by adding equants. Nevertheless this model also hat short comings, which would be fixed by adding another circle. This however made the description of obversable phenomena increasingly more complex.
 
-## Overview
+## The Copernican revolution
+It was Nicolaus Copernicus, a polish-born astronomer, who would develop a new model in the effort of making the explanation of planetary motion simpler. He suggested that a helio-centered approach. However, in fear of the catholic church, he waited with publishing his idea until later in his life and his book De Revolutionibus Orbium Coelestium (On the Revolution of the Celestial Sphere) first appeared in his year of death. One immediate consequence of the Copernican model was the ability to establish the order of all of the planets from the Sun, along with their relative distances and orbital periods. The fact that Mercury and Venus are never seen more than 28° and 47°, respectively, east or west of the Sun clearly establishes that their orbits are located inside the orbit of Earth. These planets are referred to as inferior planets. Mars, Jupiter, and Saturn (the most distant planets known to Copernicus) can be seen as much as 180° from the Sun, an alignment known as opposition. This could only occur if these superior planets have orbits outside Earth's orbit. The Copernican model also predicts that only inferior planets can pass in front of the solar disk (inferior conjunction), as observed.In addition Copernicus assumed that the farther a planet is from the Sun, the more slowly it moves in orbit, Mars will be then overtaken by the faster-moving earth. As a result he had the previous mentioned resultion for the retrograde motion of planets. The former time interval (between oppositions) is known as the synodic period (S), and the latter time interval (measured relative to the background stars) is referred to as the sidereal period (P).Although the Copernican model did represent a simpler, more elegant model of planetary motion, it was not successful in predicting positions any more accurately than the Ptolemaic model. This lack of improvement was due to Copernicus’s inability to relinquish the 2000- year-old concept that planetary motion required circles, the human notion of perfection. As a consequence, Copernicus was forced (as were the Greeks) to introduce the concept of epicycles to “fix” his model.
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+## Positions on the celestial sphere
+When it came to accurately determining the position of stellar objects astronomers faced multiple difficulties. The daily( or diurnal) rotation of the earth, coupled with its annual motion around the sun and slow wobble of our rotation axis, together with the relative motion of the stars or planets themselves made it enourmously difficult. A coordinate system had to be created. A example of such coordinate system is the Altitude-Azimuth Coordinate System. When viewing objects in the sky only the direction is needed, not their distances. This coordinate, as its name suggests, was based on the alitude h and the azimuth A. The former describes the angle that is measured from the horizon to the object. The opposing angle from the object to the zenith is called zenith distance , a point on the celestial sphere that is directly above the observer, so z + h = 90°. The latter is simply the angle measured along the horizon eastward from north to the great circle used for the measure of altitude. (The meridian is another frequently used great circle; it is defined as passing through the observer's zenith and intersecting the horizon due north and south.)Also, since Earth is rotating, stars appear to move constantly across the sky, meaning that the coordinates of each object are constantly changing, even for the local observer. Complicating the problem still further, the stars rise approximately 4 minutes earlier on each successive night, so that even when viewed from the same location at a specified time, the coordinates change from day to day. This is due to the fact the earth is orbiting around the sun. A full orbit takes the earth 365.26 days, so the earth rotates slightly less than 1% per day around the sun. This means that in order for the sun to be same place that it was yesterday, the earth has to turn 1% more. This 1% translates exactly to 4 minutes(360/ 24 = 15° per hour -> 60/15 = 4 minutes for one degree). This is why a sidereal day is only 23 hours 56 minutes long(a solar day is 24 hours), because thats how long it takes for the stars to be at the exact same place. Theoretically the same effect, which we experience with the sun, can be seen with stars however they are to far away for the effect be noticable hence only a 360° rotation is necessary. The Sun moves through the star constellations along a path referred to as the ecliptic.As a result of the tilt (approx. 23.5°), the ecliptic moves north and south of the celestial equator, which is defined by passing a plane through Earth at its equator and extending that plane out to the celestial sphere. This crossing happends two times per year, once moving northward and once moving to the south. The first point of intersection is called vernal equinox and the southern crossing occurs at the autumnal equinox. Spring begins, when the center of the sun is precisly at the vernal equinox; similarly, fall begins when the center of the sun crosses the autumnal equinox.
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
-
-## Get Started
-
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
-
-## Crowd-funded open-source software
-
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
-
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
-
-## Ecosystem
-
-- **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
-
-## Inspiration
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
-
-## Features
-
-- **Page builder** - Create _anything_ with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
+## Physics and anstronomy
