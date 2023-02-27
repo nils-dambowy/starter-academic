@@ -29,7 +29,7 @@ sections:
           icon: camera-retro
           icon_pack: fas
   
-  - block: educatiom
+  - block: education
     content:
       title: Education
       # Date format for experience
