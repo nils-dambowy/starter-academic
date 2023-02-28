@@ -2,7 +2,7 @@
 title: The Celestial Sphere
 subtitle: From Greek tradition to physics and astronomy
 # Summary for listings and search engines
-summary: The celestial sphere was a term used to explain movement of the stars during ancient greece. It consists out of an outward layer which completly encloses the earth, as seen on the figure on the left side. On this sphere all the observable stars were located and it was believed that the rotation of that sphere around an axis from e.g. north to south pole was the cause of movement
+summary: The celestial sphere was a term used to explain movement of the stars during ancient greece. It consists out of an outward layer which completly encloses the earth, as seen on the figure on the left side. On this sphere all the observable stars were located and it was believed that the rotation of that sphere around an axis from e.g. north to south pole was the cause of movement of the stars
 
 # Link this post with a project
 projects: []
@@ -37,6 +37,7 @@ tags:
 
 categories:
 ---
+Resources are found at the bottom of the page.  
 
 ## The Greek tradition
 Our story starts in ancient Greece where the roots of our modern scientific view lay. Modern astronomy relies on the mathematic formulation of physical theories, which made it start during these times. It was Pythagoras who first demonstrated a relationship between numbers and nature. During the following hundreds of years greek scientists would build on the discoveries made by Pythargoras and they would formulate the first theories to explain the moving night sky. They noticed that the stars were constantly moving from east to west during the course of a night and that the star constellation would vary by season. This made the assumption propable that our night sky revolved around a fixed earth, so that the circular movement is created by the stars - a geocentric universe. However this model was flawed since it did not take into account the concept of 'wandering stars', such as mars. Which were objects in the sky that did not conform to the movement of the sphere. Further explanation was necessary.The task to explain that retrograde(backwards) movement would keep the science world busy for almost 2000 years.
@@ -66,3 +67,8 @@ Despite referencing the equatorial coordinate system to the celestial equator an
 ![screen reader text](precession.jpg "")
 
 ## Physics and anstronomy
+
+## Used Literature
+• An introduction to Modern Astrophyiscs - Carroll, Ostlie
+• An introduction to Modern Astrophyiscs - Solution Manual - Carroll, Ostlie
+• Introduction to Astronomy Lecture by Prof. Schaffner-Bielich at Goethe University
