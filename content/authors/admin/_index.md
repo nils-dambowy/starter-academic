@@ -67,4 +67,8 @@ email: ''
 highlight_name: true
 ---
 
-tba.
+I am a computer science and physics student at Goethe University.
+My interests are in Data Science, Simulation Science, Natural Language Processing and Machine Learning.
+Non-academically I am mostly interested in astronomy, space aviation and enviromental topics.
+I also occasionally write blog posts about these topics.
+You can find them and my completed and ongoing projects down below.
