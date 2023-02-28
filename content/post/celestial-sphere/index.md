@@ -72,6 +72,6 @@ To complete one turn around the precession circle the Earth needs around 25.770 
 ## Physics and anstronomy
 
 ## Used Literature
-• An introduction to Modern Astrophyiscs - Carroll, Ostlie
-• An introduction to Modern Astrophyiscs - Solution Manual - Carroll, Ostlie
-• Introduction to Astronomy Lecture by Prof. Schaffner-Bielich at Goethe University
+- An introduction to Modern Astrophyiscs - Carroll, Ostlie
+- An introduction to Modern Astrophyiscs - Solution Manual - Carroll, Ostlie
+- Introduction to Astronomy Lecture by Prof. Schaffner-Bielich at Goethe University
