@@ -2,7 +2,7 @@
 title: The Celestial Sphere
 subtitle: From Greek tradition to physics and astronomy
 # Summary for listings and search engines
-summary: The celestial sphere was a term used to explain movement of the stars during ancient greece. It consists out of an outward layer which completly encloses the earth, as seen on the figure on the left side. On this sphere all the observable stars were located and it was believed that the rotation of that sphere around an axis from e.g. north to south pole was the cause of movement of the stars
+summary: The celestial sphere was a term used to explain movement of the stars during ancient greece. It consists out of an outward layer which completly encloses the earth. On this sphere all the observable stars were located and it was believed that the rotation of that sphere around an axis from e.g. north to south pole was the cause of movement of the stars
 
 # Link this post with a project
 projects: []
