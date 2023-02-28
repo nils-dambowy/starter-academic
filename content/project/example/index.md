@@ -40,7 +40,7 @@ A SEIR model is approach that is used to describe the spread of infectious disea
 In its most basic form the model looks like this:
 
 ```mermaid
-graph TD;
+graph LR;
   S-->E;
   E-->I;
   I-->R;
