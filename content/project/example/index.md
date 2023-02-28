@@ -29,6 +29,11 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
+Resources:
+S. Pengpeng, C. Shengli, F. Peihua , SEIR Transmission dynamics model of 2019 nCoV coronavirus with considering the weak infectious ability and changes in latency duration, Preprint, medRxiv, 2020. 
+
+C. Graf, Ausbreitung von Epidemien, Maturitätsarbeit, Winterthur, 2017
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
