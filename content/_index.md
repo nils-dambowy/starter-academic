@@ -35,7 +35,7 @@ sections:
         - title:  Web development
           company: ITF Juniors Tournament Bruchköbel
           company_url: ''
-          company_logo: org-x
+          company_logo: itf_logo
           location: Bruchköbel
           date_start: '2020-08-01'
           date_end: '2021-08-01'
@@ -43,7 +43,7 @@ sections:
         - title: IT Support
           company: AWO Bundesverband e.V.
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: Bruchköbel
           date_start: '2017-01-01'
           date_end: '2018-05-01'
