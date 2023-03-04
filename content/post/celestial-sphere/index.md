@@ -81,8 +81,8 @@ $$ \Delta \Theta = \frac{\Delta d}{r} = \frac{v_{\Theta}}{r} \Delta t  $$
 $$ \text{(Angular displacement)} \Delta d = \Theta \cdot r \rightarrow \Theta = \frac{\Delta d}{r} $$ 
 $$ \text{To go from angular displacement to angular velocity - derive}$$
 $$ \frac{\Delta \Theta}{\Delta t} = \frac{\Delta d}{r \cdot \Delta t} = \frac{v_{\Theta}\cdot \Delta t}{r \cdot \Delta t} $$
-$$ \frac{\Delta \Theta}{\Delta t} = \frac{v_{\Theta}}{r} 
-$${< /math >}
+$$ \frac{\Delta \Theta}{\Delta t} = \frac{v_{\Theta}}{r}$$
+{{< /math >}}
 
 ![screen reader text](star_vector.PNG "")
 ## Physics and astronomy
