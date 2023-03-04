@@ -36,6 +36,10 @@ tags:
   - Physics
 
 categories:
+
+features:
+  math:
+    enable: true
 ---
 ## The Greek tradition
 Our story starts in ancient Greece where the roots of our modern scientific view lay. Modern astronomy relies on the mathematic formulation of physical theories, which made it start during these times. It was Pythagoras who first demonstrated a relationship between numbers and nature. During the following hundreds of years greek scientists would build on the discoveries made by Pythargoras and they would formulate the first theories to explain the moving night sky. They noticed that the stars were constantly moving from east to west during the course of a night and that the star constellation would vary by season. This made the assumption propable that our night sky revolved around a fixed earth, so that the circular movement is created by the stars - a geocentric universe. However this model was flawed since it did not take into account the concept of 'wandering stars', such as mars. Which were objects in the sky that did not conform to the movement of the sphere. Further explanation was necessary.The task to explain that retrograde(backwards) movement would keep the science world busy for almost 2000 years.
@@ -69,7 +73,7 @@ Despite referencing the equatorial coordinate system to the celestial equator an
 
 To complete one turn around the precession circle the Earth needs around 25.770 years. The result for example is that the north star slowly moves through heavens. Currently the north star is within 1% of the north celestial pole, in 13.000 years it will be nearly 47° away from that point! Due that wobble it is important to refer to a specific epoch( or reference date) when listing the right ascencion and declinaion of a celestial object in the azimuth-height system.
 
-Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry $ v_{r} $ and the other perpindicular to it.
+Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry $v_{r}$ and the other perpindicular to it.
 
 ![screen reader text](star_vector.PNG "")
 ## Physics and anstronomy
