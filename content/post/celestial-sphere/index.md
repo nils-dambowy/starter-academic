@@ -75,7 +75,8 @@ To complete one turn around the precession circle the Earth needs around 25.770 
 
 Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry{{< math >}} $ v_{r}${{< /math >}}) and the other perpindicular(tangential velocity{{< math >}} $ v_{\Theta}${{< /math >}}) to it. This transverse (or tangential) velocity appears as the slow, angular change in its equatorial coordinate, known as the proper motion. In a time intervall {{< math >}} $ \Delta t${{< /math >}}, the star will have moved in a direction perpendiculr to the observer's line of sight.  {{< math >}} $$ \Delta d = v_{\Theta} \Delta t $$ $$\text{The distance the star will have moved in a given time t}$$ {{< /math >}}
 
-If the distance from the observer to the star is r, then the angular change in it position along the celestial sphere is given by {{< math >}} $$ \Delta \Theta = \frac{\Delta d}{r} = \frac{v_{\Theta}}{r} \Delta t  $${{< /math >}}
+If the distance from the observer to the star is r, then the angular change in it position along the celestial sphere is given by {{< math >}} $$ \Delta \Theta = \frac{\Delta d}{r} = \frac{v_{\Theta}}{r} \Delta t  $$
+$$ \text{(Angular displacement)} \Delta d = \Theta \cdot r \rightarrow \Theta = \frac{\Delta d}{r} d$${{< /math >}}
 
 ![screen reader text](star_vector.PNG "")
 ## Physics and astronomy
