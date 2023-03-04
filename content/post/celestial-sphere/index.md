@@ -78,7 +78,8 @@ Another effect contributing to the change in equatorial coordinates is due to th
 If the distance from the observer to the star is r, then the angular change in it position along the celestial sphere is given by {{< math >}} 
 $$ \Delta \Theta = \frac{\Delta d}{r} = \frac{v_{\Theta}}{r} \Delta t  $$
 $$ \text{(Angular displacement)} \Delta d = \Theta \cdot r \rightarrow \Theta = \frac{\Delta d}{r} $$ 
-$$ \text{To go from angular displacement to angular velocity, derive the equation above}$$ 
+$$ \text{To go from angular displacement to angular velocity - derive}$$
+$$ \frac{\Delta Theta}{\Delta t} = \frac{\Delta D}{r \cdot \delta t} = \frac{v_{\Theta}}{r \cdot \Delta t} \cdot \Delta t $$
 {< /math >}}
 
 ![screen reader text](star_vector.PNG "")
