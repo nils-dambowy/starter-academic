@@ -27,7 +27,7 @@ sections:
         - title: Student Assistant - IT Support
           company: Goethe University
           company_url: ''
-          company_logo: org-x
+          company_logo: gu_logo
           location: Frankfurt am Main
           date_start: '2018-04-01'
           date_end: '2023-03-30'
