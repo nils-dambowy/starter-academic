@@ -66,9 +66,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+I am a student at Goethe University pursuing a degree in both Computer Science and Physics. My academic interests lie primarily in the fields of Data Science, Simulation Science, Natural Language Processing, and Machine Learning. I am passionate about exploring the possibilities that these fields offer and have completed several projects in these areas.
 
-I am a computer science and physics student at Goethe University.
-My interests are in Data Science, Simulation Science, Natural Language Processing and Machine Learning.
-Non-academically I am mostly interested in astronomy, space aviation and enviromental subjects.
-I also occasionally write blog posts about these topics.
-You can find them and my completed and ongoing projects down below.
+In addition to my academic pursuits, I have a keen interest in astronomy, space aviation, and environmental issues and I occasionally write blog posts on these subjects as well.
+
+You can find some of my completed projects and ongoing work below, as well as links to my blog posts.
