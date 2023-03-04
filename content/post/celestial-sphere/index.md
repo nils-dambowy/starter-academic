@@ -73,10 +73,10 @@ Despite referencing the equatorial coordinate system to the celestial equator an
 
 To complete one turn around the precession circle the Earth needs around 25.770 years. The result for example is that the north star slowly moves through heavens. Currently the north star is within 1% of the north celestial pole, in 13.000 years it will be nearly 47° away from that point! Due that wobble it is important to refer to a specific epoch( or reference date) when listing the right ascencion and declinaion of a celestial object in the azimuth-height system.
 
-Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry{{< math >}} $ v_{r}${{< /math >}}) and the other perpindicular(tangential velocity{{< math >}} $ v_{\Theta}${{< /math >}}) to it. This transverse (or tangential) velocity appears as the slow, angular change in its equatorial coordinate, known as the proper motion. In a time intervall {{< math >}} $ \Delta t${{< /math >}}
+Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry{{< math >}} $ v_{r}${{< /math >}}) and the other perpindicular(tangential velocity{{< math >}} $ v_{\Theta}${{< /math >}}) to it. This transverse (or tangential) velocity appears as the slow, angular change in its equatorial coordinate, known as the proper motion. In a time intervall {{< math >}} $ \Delta t${{< /math >}}, the star will have moved in a direction perpendiculr to the observer's line of sight.  {{< math >}} $$ \Delta d = v_{\Theta} \Delta t $${{< /math >}}
 
 ![screen reader text](star_vector.PNG "")
-## Physics and anstronomy
+## Physics and astronomy
 
 ## Used Literature
 - An introduction to Modern Astrophyiscs - Carroll, Ostlie
