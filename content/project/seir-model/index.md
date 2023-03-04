@@ -12,7 +12,7 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-
+---
 Resources:
 - S. Pengpeng, C. Shengli, F. Peihua , SEIR Transmission dynamics model of 2019 nCoV coronavirus with considering the weak infectious ability and changes in latency duration, Preprint, medRxiv, 2020. 
 
