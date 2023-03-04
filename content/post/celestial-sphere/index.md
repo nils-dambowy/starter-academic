@@ -73,7 +73,13 @@ Despite referencing the equatorial coordinate system to the celestial equator an
 
 To complete one turn around the precession circle the Earth needs around 25.770 years. The result for example is that the north star slowly moves through heavens. Currently the north star is within 1% of the north celestial pole, in 13.000 years it will be nearly 47° away from that point! Due that wobble it is important to refer to a specific epoch( or reference date) when listing the right ascencion and declinaion of a celestial object in the azimuth-height system.
 
-Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry $v_{r}$ and the other perpindicular to it.
+Another effect contributing to the change in equatorial coordinates is due to the intrinsic velocities of the objects themselves. The velocity of the celestial object can then decomposed into two perpendicular vector, one lying along the line of sight(radical velocitry )
+{{< math >}}
+$$
+\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
+$$
+{{< /math >}}
+and the other perpindicular to it.
 
 ![screen reader text](star_vector.PNG "")
 ## Physics and anstronomy
