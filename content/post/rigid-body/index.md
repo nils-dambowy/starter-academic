@@ -1,7 +1,7 @@
 ---
 title: An introduction to rigid bodies
 subtitle: ''
-summary: Learn how to blog in Academic using Jupyter notebooks
+summary: A rigid body is an object that does not bend, deform, or change its shape under the influence of external forces. This means that all points in the object remain at a fixed distance from each other, and there is no stretching, squeezing, or twisting of the object.
 authors:
   - admin
 tags:
