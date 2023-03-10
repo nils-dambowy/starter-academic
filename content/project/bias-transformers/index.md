@@ -18,10 +18,7 @@ Resources:
 - L. Struppek, D. Hintersdorf, F. Friedrich, M. Brack, P.Schramowski, K.Kersting, The Biased Artist, arxiv, 2022. 
 - J. Salminen, S. Jung, B. Jansen, S. Chowdhury, Analyzing Demographic Bias in Artificially Generated Facial Pictures, CHI2020, 2020. 
 
-A SEIR model is a approach that is used to describe the spread of infectious diseases. In this project I am programming a simple simulation of such model.
-
-In its most basic form the model looks like this:
-
+As multimodal transformers like DALL-E and StableDiffusion become increasingly popular and accessible to the public, concerns about their neutrality are growing. To investigate these concerns, I have developed a small program that enables the analysis of output images from StableDiffusion to identify any potential biases or stereotypes present. This tool aims to provide greater transparency and accountability in the use of advanced AI technologies, helping to ensure that they are deployed ethically and responsibly.
 ```python
 import torch
 from diffusers import StableDiffusionPipeline
