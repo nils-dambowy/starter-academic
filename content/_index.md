@@ -97,8 +97,6 @@ sections:
           tag: '*'
         - name: Simulation
           tag: Simulation
-        - name: Machine Learning
-          tag: Machine Learning
         - name: Natural Language Processing
           tag: Natural Language Processing
         - name: Other
