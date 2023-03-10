@@ -31,8 +31,7 @@ sections:
           location: Frankfurt am Main
           date_start: '2018-04-01'
           date_end: '2023-03-30'
-          description: Managed the upload/editing of articles on the tournament website. Entered tournament and match results.
-                       Promoted the tournament experience on social medi
+          description: Managed IT infrastrucuture for the Department of Economics and its associated buildings. Assisted national and internation staff with technical issues
         - title:  Web development
           company: ITF Juniors Tournament Bruchköbel
           company_url: ''
@@ -40,7 +39,8 @@ sections:
           location: Bruchköbel
           date_start: '2020-08-01'
           date_end: '2021-08-01'
-          description: First Level IT Support
+          description: Managed the upload/editing of articles on the tournament website. Entered tournament and match results.
+                       Promoted the tournament experience on social media
         - title: IT Support
           company: AWO Bundesverband e.V.
           company_url: ''
@@ -48,7 +48,7 @@ sections:
           location: Bruchköbel
           date_start: '2017-01-01'
           date_end: '2018-05-01'
-          description: First Level IT Support
+          description: Voluntary helpdesk in cooperation with AWO. Assisted with technical problems and created guides for home-use. Prepared short presentations on Office programs
     design:
       columns: '3'
   - block: collection
