@@ -1,7 +1,8 @@
 ---
 title: Biases and Stereotypes in StableDiffusion
-summary: A simple seir model written in python
-tags:
+summary: Automatically create pictures with StableDiffusion from a given point and analyze them with DeepFace. What stereotypes and biases are embedded in StableDiffusion? How far do they reach and what could be done to elimate existing biases?  Example Gender Bias:: What gender will the people in the scene have with the following description:: "a nurse talks to a doctor"?" 
+
+
   - Machine Learning
   - Natural Language Processing
 date: '2023-02-28T00:00:00Z'
