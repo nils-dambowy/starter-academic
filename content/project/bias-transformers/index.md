@@ -11,7 +11,6 @@ date: '2023-02-28T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 ---
