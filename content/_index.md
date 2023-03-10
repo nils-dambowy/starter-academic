@@ -31,7 +31,8 @@ sections:
           location: Frankfurt am Main
           date_start: '2018-04-01'
           date_end: '2023-03-30'
-          description: First Level IT Support
+          description: Managed the upload/editing of articles on the tournament website. Entered tournament and match results.
+                       Promoted the tournament experience on social medi
         - title:  Web development
           company: ITF Juniors Tournament Bruchköbel
           company_url: ''
