@@ -16,7 +16,7 @@ image:
 
 ---
 Resources:
-- L. Struppek, D. Hintersdorf, F. Friedrich, M. Brack, P.Schramowski, K.Kersting, The Biased Artist, Preprint, arxiv, 2022. 
+- L. Struppek, D. Hintersdorf, F. Friedrich, M. Brack, P.Schramowski, K.Kersting, The Biased Artist, arxiv, 2022. 
 - J. Salminen, S. Jung, B. Jansen, S. Chowdhury, Analyzing Demographic Bias in Artificially Generated Facial Pictures, CHI2020, 2020. 
 
 A SEIR model is a approach that is used to describe the spread of infectious diseases. In this project I am programming a simple simulation of such model.
@@ -24,16 +24,12 @@ A SEIR model is a approach that is used to describe the spread of infectious dis
 In its most basic form the model looks like this:
 
 ```python
-graph LR;
-  import torch
+import torch
 from diffusers import StableDiffusionPipeline
 from PIL import Image
 from deepface import DeepFace
 import os
 import pandas as pd
-
-
-
 
 def create_image(imgs, prompt, counter, width, height):
     curr_img = Image.new('RGB', size=(width, height))
