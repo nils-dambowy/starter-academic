@@ -139,7 +139,7 @@ def main():
                     num_images -=1
             analyze(prompt)
 ```
-Example output with prompt 'Man':
+## Example output with prompt 'Man':
 {{< table path="Man.csv" header="true" caption="Example output with prompt 'Man':" >}}
 
 The output CSV file consists of 9 columns. The first column represents the number of faces detected. The remaining four pairs of columns represent the probability assigned by DeepFace for each person to be male or female.
