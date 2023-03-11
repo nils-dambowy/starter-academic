@@ -141,8 +141,8 @@ def main():
               analyze(prompt)
             else:
               print("That is not a valid input.")
-    ```
-    ## Example output with prompt 'Man':
+```
+## Example output with prompt 'Man':
 {{< table path="Man.csv" header="true" caption=" " >}}
 
 The output CSV file consists of 9 columns. The first column represents the number of faces detected. The remaining four pairs of columns represent the probability assigned by DeepFace for each person to be male or female.
