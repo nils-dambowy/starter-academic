@@ -58,22 +58,7 @@ def use_pipeline(prompt, input_seed):
     images = images['images']
     return images, nsfw
 
-
-def seed_req(num_images):
-    random_seed = input('Random seed? (y/n)')
-    if random_seed != 'y':
-        seeds = []
-        seed_asc = input('Seed ascending? (y / n)')
-        if seed_asc != 'y':
-            while num_images > 0:
-                print('you need' + num_images + 'more seeds')
-                seeds.append = input('Which seeds do you want to use? Enter one seed')
-                num_images -= 1
-        else:
-            seeds = range(0, num_images)
-        return seeds
-
-def main(img_filepath1, img_filepath2, dataset_path):
+def facial_analysis(img_filepath1):
     backends = [
     'opencv',
     'ssd',
@@ -98,13 +83,15 @@ def analyze(prompt):
     df = pd.DataFrame()
     all_outputs = []
     lengths = []
-    for count, file in enumerate(os.listdir('Images')):
-        if file.split('_')[:-1] == prompt.split(' '):
-            output = main('Images/'+ file, "", "")
-            lengths.append(int(len(output)/2))
-            all_outputs.append(output)
     max_length = max(lengths)
     columns = []
+
+    for file in enumerate(os.listdir('Images')):
+        if file.split('_')[:-1] == prompt.split(' '):
+            output = facial_analysis('Images/'+ file,)
+            lengths.append(int(len(output)/2))
+            all_outputs.append(output)
+    
     for i in range(0, max_length):
         columns.append(str(i) + ' Woman')
         columns.append(str(i) + ' Man')
@@ -119,40 +106,38 @@ def analyze(prompt):
     df.to_csv(prompt.replace(' ', '_') + '.csv', index=False)
 
 
+def main():
+    if __name__ == "__main__":
+        user_input = ""
+        while user_input != "exit":
+            user_input = input('Enter "a" to only analyze. Enter "c" to create images and analyze them afterwards.')
+        if user_input == 'a':
+            analyze(input('Please specify a filename: '))
+        elif user_input == 'c':
+            print(torch.cuda.is_available())
+            device = "cuda"
+            model_id = "CompVis/stable-diffusion-v1-4"
+            pipe = StableDiffusionPipeline.from_pretrained(
+                model_id,
+                revision="fp16",
+                torch_dtype=torch.float16,
+                use_auth_token='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',
+            ).to(device)
+            num_images = int(input('Anzahl an Bildern. '))
+            width = int(input('Geben Sie die Breite der Bilder ein. '))
+            height = int(input('Geben Sie die Höhe der Bilder ein. '))
+            prompt = input('Geben Sie Ihren Prompt ein ')
 
-if input('a to only analyze ') == 'a':
-    analyze(input('Filename '))
-else:
-    print(torch.cuda.is_available())
-    device = "cuda"
-    model_id = "CompVis/stable-diffusion-v1-4"
-    pipe = StableDiffusionPipeline.from_pretrained(
-        model_id,
-        revision="fp16",
-        torch_dtype=torch.float16,
-        use_auth_token='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',
-    ).to(device)
-    num_images = int(input('Anzahl an Bildern. '))
-    width = int(input('Geben Sie die Breite der Bilder ein. '))
-    height = int(input('Geben Sie die Höhe der Bilder ein. '))
-    prompt = input('Geben Sie Ihren Prompt ein ')
-    # seeds = seed_req(num_images)
-    # max_images = num_images
-    # no_nsfw = 1
-    cn = 0
-    while num_images > 0:
-        curr_imgs, nsfw = use_pipeline(prompt, [])
-        if nsfw[0]:
-            # seeds[num_images] = max_images + no_nsfw
-            pass
-        elif not nsfw[0]:
-            create_image(curr_imgs, prompt, cn, width, height)
-            cn += 1
-            num_images -=1
-    analyze(prompt)
-
-# df2 = pd.read_csv('man.csv') # read csv file
-# print(df2)
+            cn = 0
+            while num_images > 0:
+                curr_imgs, nsfw = use_pipeline(prompt, [])
+                if nsfw[0]:
+                    pass
+                elif not nsfw[0]:
+                    create_image(curr_imgs, prompt, cn, width, height)
+                    cn += 1
+                    num_images -=1
+            analyze(prompt)
 ```
 {{< table path="Man.csv" header="true" caption="Output:" >}}
 
