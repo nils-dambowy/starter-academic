@@ -123,10 +123,10 @@ def main():
                 torch_dtype=torch.float16,
                 use_auth_token='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',
             ).to(device)
-            num_images = int(input('Anzahl an Bildern. '))
-            width = int(input('Geben Sie die Breite der Bilder ein. '))
-            height = int(input('Geben Sie die Höhe der Bilder ein. '))
-            prompt = input('Geben Sie Ihren Prompt ein ')
+            num_images = int(input('Amount of pictures: '))
+            width = int(input('Width: '))
+            height = int(input('Height: '))
+            prompt = input('Prompt: ')
 
             cn = 0
             while num_images > 0:
@@ -140,6 +140,6 @@ def main():
             analyze(prompt)
 ```
 ## Example output with prompt 'Man':
-{{< table path="Man.csv" header="true" caption="Example output with prompt 'Man':" >}}
+{{< table path="Man.csv" header="true" caption=" " >}}
 
 The output CSV file consists of 9 columns. The first column represents the number of faces detected. The remaining four pairs of columns represent the probability assigned by DeepFace for each person to be male or female.
