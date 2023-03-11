@@ -139,6 +139,6 @@ def main():
                     num_images -=1
             analyze(prompt)
 ```
-{{< table path="Man.csv" header="true" caption="Output:" >}}
+{{< table path="Man.csv" header="true" caption="Example output with prompt 'Man':" >}}
 
 The different state are Suspectible, Exposed, Infected and Recovered. Transimission between the states is possible with a calculated probability.
