@@ -81,10 +81,12 @@ def facial_analysis(img_filepath1):
 
 def analyze(prompt):
     df = pd.DataFrame()
+    df = pd.DataFrame(all_outputs, columns = columns)
     all_outputs = []
     lengths = []
     max_length = max(lengths)
     columns = []
+
 
     for file in enumerate(os.listdir('Images')):
         if file.split('_')[:-1] == prompt.split(' '):
@@ -101,8 +103,7 @@ def analyze(prompt):
             for j in range(int(max_length - lengths[idx])*2):
                 elem.append(0.0)
         all_outputs[idx] = [lengths[idx]] + elem
-
-    df = pd.DataFrame(all_outputs, columns = columns)
+   
     df.to_csv(prompt.replace(' ', '_') + '.csv', index=False)
 
 
@@ -110,36 +111,38 @@ def main():
     if __name__ == "__main__":
         user_input = ""
         while user_input != "exit":
-            user_input = input('Enter "a" to only analyze. Enter "c" to create images and analyze them afterwards.')
-        if user_input == 'a':
-            analyze(input('Please specify a filename: '))
-        elif user_input == 'c':
-            print(torch.cuda.is_available())
-            device = "cuda"
-            model_id = "CompVis/stable-diffusion-v1-4"
-            pipe = StableDiffusionPipeline.from_pretrained(
-                model_id,
-                revision="fp16",
-                torch_dtype=torch.float16,
-                use_auth_token='PASTE TOKEN HERE',
-            ).to(device)
-            num_images = int(input('Amount of pictures: '))
-            width = int(input('Width: '))
-            height = int(input('Height: '))
-            prompt = input('Prompt: ')
+            user_input = input('Enter "a" to only analyze. Enter "c" to create images and analyze them afterwards or "exit" to terminate the programm.')
+            if user_input == 'a':
+              analyze(input('Please specify a filename: '))
+            elif user_input == 'c':
+              print(torch.cuda.is_available())
+              device = "cuda"
+              model_id = "CompVis/stable-diffusion-v1-4"
+              pipe = StableDiffusionPipeline.from_pretrained(
+                  model_id,
+                  revision="fp16",
+                  torch_dtype=torch.float16,
+                  use_auth_token='PASTE TOKEN HERE',
+              ).to(device)
+              num_images = int(input('Amount of pictures: '))
+              width = int(input('Width: '))
+              height = int(input('Height: '))
+              prompt = input('Prompt: ')
 
-            cn = 0
-            while num_images > 0:
-                curr_imgs, nsfw = use_pipeline(prompt, [])
-                if nsfw[0]:
-                    pass
-                elif not nsfw[0]:
-                    create_image(curr_imgs, prompt, cn, width, height)
-                    cn += 1
-                    num_images -=1
-            analyze(prompt)
-```
-## Example output with prompt 'Man':
+              cn = 0
+              while num_images > 0:
+                  curr_imgs, nsfw = use_pipeline(prompt, [])
+                  if nsfw[0]:
+                      pass
+                  elif not nsfw[0]:
+                      create_image(curr_imgs, prompt, cn, width, height)
+                      cn += 1
+                      num_images -=1
+              analyze(prompt)
+            else:
+              print("That is not a valid input.")
+    ```
+    ## Example output with prompt 'Man':
 {{< table path="Man.csv" header="true" caption=" " >}}
 
 The output CSV file consists of 9 columns. The first column represents the number of faces detected. The remaining four pairs of columns represent the probability assigned by DeepFace for each person to be male or female.
