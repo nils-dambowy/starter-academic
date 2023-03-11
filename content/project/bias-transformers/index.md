@@ -121,7 +121,7 @@ def main():
                 model_id,
                 revision="fp16",
                 torch_dtype=torch.float16,
-                use_auth_token='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',
+                use_auth_token='PASTE TOKEN HERE',
             ).to(device)
             num_images = int(input('Amount of pictures: '))
             width = int(input('Width: '))
